@@ -53,3 +53,210 @@ Entende-se por Maturidade de Processos o grau/nível de excelência no qual uma 
 - O nível de **capacidade** envolve o **grau em que um processo é executado seguindo as boas práticas do modelo**.
 - O nível de **maturidade** envolve o **grau em que um conjunto de processos pré-definidos alcançam seu nível de capacidade correspondente**.
 
+## O que é Qualidade de Software?
+- É o resultado de um esforço planejado e constantemente avaliado.
+- "não é de graça, não cai do céu"
+- Deve atender às necessidades do usuário/cliente
+  - Usuário: Facilidade
+  - Clientes: Atendimento das necessidades 
+  - Gerentes: Custo e prazo
+  - Analista/Projetistas: Boas práticas
+- Afeta
+  - os custos de desenvolvimento
+  - os prazos de entrega
+  - a satisfação do usuário/cliente
+ - Conformidade com:
+  - necessidades (requisitos explícitos) do cliente
+  - padrões de desenvolvimento
+  - requisitos implícitos (boas práticas)
+  - prazos e custos (estimativas)
+
+### Mitos sobre a Qualidade
+- As falhas de software são inevitáveis
+- Os testes conduzem à qualidade
+- A qualidade custa dinheiro
+
+### Obstáculos para a Qualidade
+- Cultura organizacional
+- Complexidade das soluções
+- Clientes não identificados e não esclarecidos
+- Custos e prazos mal definidos
+- Planejamento de projetos inexistente
+- Dados de histórico de projetos inexistentes
+- Processos de projeto inexistentes
+
+### Qualidade x Produtividade
+**TODO** Slide 18-1
+
+## Qualidade do Produto
+ - Conformidade com:
+  - necessidades (requisitos explícitos) do cliente
+  - padrões de desenvolvimento
+  - requisitos implícitos (boas práticas)
+  - prazos e custos (estimativas)
+
+## Garantia de Qualidade
+- Métodos
+- Padrões
+- Procedimentos
+- Documentos
+- Revisões
+- Auditorias
+
+## Gerência de Configuração
+- Controles de mudanças
+- Baselines
+
+## Melhoria Contínua
+- Foco no processo
+- Prevensão de defeitos
+- Kaizen (gerenciamento, desenvolvimento, evolução do software)
+
+## Safisfação do Cliente
+- Qualidade 
+  - Conformidade com os requisitos do cliente
+- Custo
+  - Tão baixo quanto possível
+- Defeitos
+  - Disponibilidade e confiabilidade previstas
+- Entrega
+  - Dentro do prazo
+
+## Engenharia de Software
+- Métodos
+- Técnicas 
+- Ciclos de vida
+- Gerenciamento
+- Garantia de qualidade
+- Testes
+
+### Manutenção de Software
+- Rastreabilidade
+- Previsibilidade
+- Qualidade da Mudanças
+
+<br>
+
+> Modificação de um produto de software após sua implantação para corrigir defeitos, melhorar o desempenho e outros atributos, ou adaptá-lo a novos ambientes.
+>
+> \- (ANSI / IEEE 1983)
+
+#### Problemas Relacionados a Manutenção
+- Pouca informação em relação ao processo de desenvolvimento
+- Pouca informação em relação às manutenções anteriores
+- **Dificuldade de entender os programas** feitos por outra pessoa
+- **Baixa qualidade de documentação**
+- Software não projetado para sofrer mudanças
+- A manutenção não traz satisfação pessoa
+
+#### Fatores de Manutenibilidade (Fatores que Contribuem ou Precisam Existir para Haver Manutenibilidade)
+- Disponibilidade de pessoal qualificado
+- Estrutura compreensível do sistema
+- Operabilidade do sistema
+- Uso de linguagens de programação
+- adronizadas (c/regras de boa programação)
+- Uso de sistemas operacionais padronizados
+- Estrutura padronizada de documentação
+- Disponibilidade de casos de testes
+
+#### Processo de Manutenção
+**GOTO**
+
+#### Distribuição de Esforços
+- Evolutiva : 50%
+- Adaptativa : 25%
+- Corretiva : 21%
+- Preventiva : 4%
+
+#### Modelos de Manutenção de Software
+**GOTO**
+
+### Testes
+- Planos e especificações de testes
+- Ambientes de teste
+- Grupos de teste
+
+### Modelos de Ciclo de Vida
+- Principais tipos de modelo
+  - Clássico ou Cascata
+  - Modelo V
+  - Prototipação
+  - Espiral
+  - XP
+  - SCRUM
+
+## Qualidade do Processo
+- Atividades definidas
+- Repetição
+- Gerenciamento
+- Dados de Processo
+
+## Processo Genérico
+- Inputs:
+  - "entrada"
+  - Regras: métodos, políticas, norma, diretrizes etc
+  - Recursos: Materiais e Humanos
+
+### Por que usamos processos?
+- Melhoria do desempenho das organizações de software
+
+### O que é um processo?
+- Conjunto de passos (fases) para realizar uma tarefa
+- Cada **fase tem critérios (regras)** específicos de entrada e saída
+- As **fases definem as tarefas** e como desem ser realizadas
+
+### Processos de Software
+- Waterfall Model (Royce, 1970)
+- Spiral Model (Boehm, 1988)
+- Modelo de Reuso (Reifer, 1997)
+
+#### Por que um processo de software é importante?
+- Melhorar continuamente os processos através do aprendizado de novos métodos;
+- Construir sistemas mais complexos e maiores no futuro; e
+- Estruturar uma base histórica de projetos.
+
+### Processo de Manutenção de Software
+- Objetivo : Alterar o software existente e estender a sua vida enquanto for economicamente possível
+- Características :
+  - Inicia após a implantação do software.
+  - Pode ser realizado por muitos anos.
+
+## Modelos de Manutenção de Software
+### Modelo de Boehm
+- Entendimento do software existente
+- Modificação do software existente
+- Revalidação do software modificado
+
+### Modelo de Osborn
+- Determinação da necessidade de mudança
+- Submissão do pedido de mudança
+- Análise de requisitos
+- Aprovação/rejeição do pedido de mudança
+- Programação da atividade
+- Projeto
+- Codificação
+- Revisão de código
+- Teste
+- Atualização da documentação
+- Auditoria
+- Instalação
+- Aceitação do usuário
+- Revisão pós-instalação
+- Encerramento da atividade
+
+### Modelo Orientado a Pedido
+- **Controle de Pedidos**
+  - Classificação dos pedidos
+  - Análise de custo/benefício
+  - Priorização
+- **Controle de Mudanças**
+  - Seleção e reprodução do problema
+  - Análise de especificações e códigos
+  - Projeto de mudanças e testes
+  - Garantia de qualidade
+- **Controle de Versões**
+  - Determinação da versão
+  - Construção da nova versão (edição, configuração, garantia de qualidade)
+  - Testes especiais
+  - Distribuição
+  - Aceitação

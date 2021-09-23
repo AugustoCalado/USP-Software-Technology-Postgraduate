@@ -260,3 +260,55 @@ Entende-se por Maturidade de Processos o grau/nível de excelência no qual uma 
   - Testes especiais
   - Distribuição
   - Aceitação
+
+## Software Quality Assurance (SQA)
+- Um padrão planejado e sistematizado de todas as ações necessárias para fornecer **confiança** adequada a um item ou produto de acordo com **os requisitos especificados**.
+- Um conjunto de atividades projetadas para avaliar o processo pelo qual os produtos são desenvolvidos
+
+### Abrangência de SQA
+- Métodos e ferramentas (análise, projeto, codificação, teste)
+- Revisões técnicas formais (em todas as fases)
+- Estratégias de teste (várias fases)
+- Controle de documentação de software (geração e alteração)
+- Procedimentos para garantir a adequação aos padrões de desenvolvimento de software
+- Mecanismos de medição e divulgação
+
+## Software Configuration Management (SCM)
+- É um conjunto de atividades desenvolvido para administrar as mudanças em todo o ciclo de vida do software
+
+### Ciclo de SCM
+- Identificar a mudança
+- Controlar a mudança
+- Garantir que a mudança esteja sendo implementada adequadamente
+- Relatar a mudança ás pessoas interessadas
+
+### Configuração de Software
+- Programas (fonte executável)
+- Estrutura de dados (internos, externos)
+- Documentos
+
+### Baseline
+- É definida como um marco de referência no desenvolvimento de software, **caracterizado pela entrega e aprovação de Itens de Configuração de Software (SCI)**.
+- Os SCI podem sofrer mudanças, mas serão feitas através de um procedimento específico e formal para avaliar e verificar cada mudança.
+
+### Itens de Configuração de Software (SCI)
+- Especificação de Sistema
+- Plano de Projeto de Software
+- Especificação de Requisitos de Software (+protótipo)
+- Manual Preliminar do usuário
+- Especificação do projeto
+- Listagem de código fonte
+- Plano e procedimentos de teste
+- Manuais (operação, sistema, manutenção, treinamento, instalação)
+- Programa executável 
+- relatórios (operações, testes, Manutenção)
+- Padrões e procedimentos (Eng. Software)
+
+### Processos de Controle de Mudança
+- A necessidade de mudança é reconhecida
+- O usuário submete um Pedido de Mudança
+- O desenvolvedor avalia
+- É gerado um Relatório de Mudança
+- O gerente de configuração toma decisão
+
+Slide 65-1

@@ -85,6 +85,9 @@ Entende-se por Maturidade de Processos o grau/nível de excelência no qual uma 
 - Dados de histórico de projetos inexistentes
 - Processos de projeto inexistentes
 
+### Fatores de Qualidade de Software
+GOTO
+
 ### Qualidade x Produtividade
 **TODO** Slide 18-1
 
@@ -310,5 +313,167 @@ Entende-se por Maturidade de Processos o grau/nível de excelência no qual uma 
 - O desenvolvedor avalia
 - É gerado um Relatório de Mudança
 - O gerente de configuração toma decisão
+- Alternativa 1: O pedido de mudança é rejeitado
+  - o usuário é informado
+- Alternativa 2: O pedido é aceito
+  - Uma ordem de mudança de engenheria é gerada
+  - Pessoas são designadas aos objetos de configuração (partes constituintes dos SCI)
+  
+  ### Controle de Sincronização e Acesso
+  ![image](https://user-images.githubusercontent.com/17462762/134663255-72abf1c4-ddb1-40d0-b318-49b3a28231f8.png)
 
-Slide 65-1
+## Computer Aided Software Engineering - CASE
+- As ferramentas CASE envolvem:
+  - Cada etapa do processo de engenharia de software
+  - Atividades que são aplicadas em todo o processo
+
+### Tipos de CASE
+- Administrativos
+  - Planejamento de sistemas comerciais (workflow)
+  - Gerenciamento de projetos
+  - Planejamento de projetos (esforço, custos e programação)
+
+- Técnicos
+  - Análise, projeto, codificação, teste
+  - Integração, prototipação
+  - Manutenção (eng. reversa e reengenharia)
+
+### Características Gerais dos CASE
+- Fracionamento da complexidade
+- Adequação a um público diversificado
+- Mais baratas que a construção em si
+- Verificáveis (rastreabilidade)
+- De fácil manutenção (especificação e
+- rojetos)
+- Orientação gráfica
+
+## Métricas de Software
+- O software é medido para:
+  - Indicar a qualidade do produto
+  - Avaliar a produtividade das pessoas
+  - Avaliar os benefícios (produtividade e qualidade) derivados de novos métodos e ferramentas de software
+  - Formar uma linha básica de estimativas
+  - Ajudar a justificar os pedidos de novas ferramentas ou treinamento adicional
+
+- Métrica
+  - Caracterização quantitativa do software baseada na teoria de medições (descrição matemática de escalas, medidas e métodos de medições). Tal teoria deve esclarecer se uma medida específica é apropriada em cada situação. (Henderson-Sellers, B. “Object-Oriented Metrics - Measures of Complexity” - Prentice Hall, 1996.)
+- Medida
+  - Grandeza determinada que serve de padrão para avaliação de outras grandezas. (Dicionário)
+  - Fornece uma indicação quantitativa de algum atributo de um produto ou processo. (Pressman)
+- Medição
+  - Ato ou efeito de medir
+  - Ato de determinar uma medida (Pressman)
+
+### Medidas Diretas
+- Custo e esforço despendido
+- Linhas de código
+- Velocidade de execução
+- Tamanho de memória
+- Número de defeitos
+
+### Medidas Indiretas
+- Funcionalidade
+- Complexidade
+- Eficiência
+- Confiabilidade
+- Manutenibilidade
+- Qualidade
+
+### Function Point 
+**TODO**
+- https://www.javatpoint.com/software-engineering-functional-point-fp-analysis
+- https://www.geeksforgeeks.org/software-engineering-calculation-of-function-point-fp/
+
+### McCabe Metric
+- É uma métrica que dá uma medida quantitativa da complexidade lógica de um programa
+- Baseia-se na complexidade ciclomática dado por um grafo de programa. (Nº de caminhos através de um programa)
+- O grafo descreve o fluxo de controle
+
+![image](https://user-images.githubusercontent.com/17462762/134666051-a059628c-83bd-4387-8d67-149cf3d19059.png)
+
+- Em um grafo G fortemente conectado, V(G) é igual ao número máximo de caminhos linearmente independentes
+- V(G) = 10 (limite máximo na prática)
+
+#### Propriedades
+- V (G) >= 1
+- V (G) é o nº máximo de caminhos linearmente independentes em G; é o tamanho de um conjunto básico de caminhos
+- Inserindo ou retirando statements funcionais em G não afeta V(G)
+- G tem somente um caminho see V (G) = 1
+- Inserindo um novo ramo em G, V (G) aumenta um (1)
+- V (G) depende somente da estrutura de decisão (fluxo de controle) de G
+
+## Fatores de Qualidade de Software
+- Os fatores de qualidade se dividem em:
+  - Os que podem ser medidos diretamente (nº de erros/linhas de código, etc.)
+- Os que só podem ser avaliados indiretamente (usabilidade, manutenibilidade, etc.)
+
+### Revisão Técnica Formal
+- RTF é uma atividade de garantia de qualidade de software executada por profissionais de engenharia de software
+- Em qualquer fase do ciclo de vida do software
+- **Objetivos**
+  - **Descobrir** **defeitos** de função, lógica ou implementação em qualquer representação do software
+  - Verificar se o software que se encontra sob revisão **atende aos requisitos**
+  - Garantir que o software tenha sido representado de acordo com padrões pré-definidos
+  - Obter um software que seja desenvolvido uniformemente
+  - Tornar os projetos mais administráveis
+- Registro de Revisão
+  - Lista de questões de revisão
+  - identifica as áreas problemáticas do produto
+  - serve como um “checklist” de itens de ação que irá orientar o produtor quando as correções forem feitas
+- Decisões
+  - Os participantes aceitam o produto sem modificações adicionais
+  - Os participantes rejeitam o produto devido a defeitos graves
+  - Os participantes aceitam provisoriamente (defeitos menores foram encontrados e devem ser corrigidos)
+
+#### Roteiro para uma RTF
+- Atribuições do Líder
+  - Preparação
+  - Agendamento
+  - Realização
+  - Encerramento
+- Recomendações para os Revisores
+  - Esteja preparado
+  - Seja cooperativo
+  - Observe a linguagem
+  - Seja educado
+  - Levante questões, não os resolva
+  - Evite discussões de estilo
+- Recomendações para os Revisores
+  - Considere o padrão de projeto utilizado em relação ao estabelecido pela Organização
+  - Considere questões técnicas
+  - Não avalie o(s) produtor(es)
+- Recomendações para o Líder
+  - Destaque os objetivos, regras e procedimentos da revisão
+  - Destaque os resultados da revisão anterior
+  - Eleja uma equipe qualificada para a revisão
+  - Destaque a importância da preparação prévia dos revisores
+  - Coordene a obtenção de infraestrutura adequada para a revisão
+  - Anote em separado os pontos que estejam fora do escopo da revisão
+  - Desencoraje comportamentos inadequados dos revisores
+  - Destaque o resultado das revisões
+  - Distribua uma cópia do registro da revisão o mais rápido possível para os revisores 
+
+## O que são Defeitos?
+- São injetados no programa por pessoas
+- através de sus erros/enganos
+- Algo que está errado no programa
+  - Sintaxe
+  - digitação
+  - pontuação
+  - instrução de comando
+
+### Onde o defeito pode ocorrer?
+- Programas
+- Arquitetura do programa
+- Requisitos
+- Especificações
+- Documentos em geral
+
+### Natureza do Defeito
+- Pode ser identificado
+- Pode ser descrito
+- Pode ser contado
+
+### Modelo de Ampliação de Defeitos - IBM
+**TODO** -  Slide 106-1
+- 

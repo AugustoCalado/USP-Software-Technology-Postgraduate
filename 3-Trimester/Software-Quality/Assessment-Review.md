@@ -1,4 +1,4 @@
-
+# Assessment Review
 
 ## Question 1 - O que é qualidade de software?
 
@@ -476,4 +476,37 @@ GOTO
 
 ### Modelo de Ampliação de Defeitos - IBM
 **TODO** -  Slide 106-1
-- 
+
+## Validação e Verificação (V&V)
+- A atividade de teste é um elemento dentro de um conceito mais amplo chamado V&V
+- Verificação: "Estamos construindo certo o produto?"
+- Validação: "Estamos construindo o produto certo?"
+- Verificação
+  - Tentativa de achar defeitos através da execução de um programa por teste ou ambuiente simulado (Myers)
+- Validação 
+  - Tentativa de achar defeitos através da execução de um programa em ambiente real
+- Depuração: Diagnóstico da natureza precisa de um defeito conhecido e então corrigi-los
+- Abrange muitas atividades de SQA:
+  - Revisões técnicas formais
+  - Auditorias de configuração e qualidade
+  - Monitoração de desempenho
+  - Simulação
+  - Estudo de viabilidade
+  - Revisão de documentação
+  - Testes em geral
+
+### Teste
+- Um bom caso de teste é aquele que tem uma elevada probabilidade de revelar um defeito ainda não descoberto
+- Um teste bem-sucedido é aquele que revela um defeito ainda não descoberto
+- Teste
+  - Processo de execução de um programa (ou parte) com a intenção de achar defeitos (Myers)
+- Dijkstra (1969)
+  - "Program testing can be used to show the presence of bugs, but never their absence"
+- "Não se pode testar qualidade"
+- "Se ela não estiver lá antes de se iniciar os testes, não estará lá ao seu término"
+
+### Visão geral dos testes
+![image](https://user-images.githubusercontent.com/17462762/134670067-b8f22d5d-abff-4206-adc5-9338eb4de9ef.png)
+
+### Documentos Para Realização de Testes
+
